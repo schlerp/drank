@@ -43,11 +43,11 @@
 
 		/* navlink styling */
 		--ff-nav-link: var(--ff-heading);
-		--bg-nav-link: var(--pal-secondary);
+		--bg-nav-link: var(--pal-primary-soft);
 		--fg-nav-link: var(--pal-text);
-		--bg-nav-link-active: var(--pal-primary-soft);
+		--bg-nav-link-active: var(--pal-secondary-soft);
 		--fg-nav-link-active: var(--pal-text);
-		--bg-nav-link-hover: var(--pal-secondary-soft);
+		--bg-nav-link-hover: var(--pal-secondary);
 		--bg-nav-link-active-hover: var(--pal-primary);
 
 		/* recipes list styling */
