@@ -22,13 +22,20 @@
 		padding: 0.5rem 1rem 0.5rem 1rem;
 		border-radius: 2rem;
 	}
+	li:hover {
+		background-color: var(--bg-nav-link-hover);
+	}
 	li.active {
 		background-color: var(--bg-nav-link-active);
 		color: var(--fg-nav-link-active);
+	}
+	li.active:hover {
+		background-color: var(--bg-nav-link-active-hover);
 	}
 	a {
 		color: inherit;
 		text-decoration: inherit;
 		cursor: inherit;
+		background-color: inherit;
 	}
 </style>

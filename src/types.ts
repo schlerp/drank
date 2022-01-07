@@ -5,6 +5,7 @@ export interface IRecipe {
 	steps: string[];
 	imageUrl: string;
 	imageDescription: string;
+	source: string;
 }
 
 export interface INavPath {

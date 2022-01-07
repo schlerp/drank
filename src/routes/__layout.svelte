@@ -15,12 +15,20 @@
 <style>
 	@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Waterfall&display=swap');
 	:root {
-		--pal-primary: #b3fc8a;
-		--pal-primary-soft: #ceffad;
+		/* --pal-primary-soft: #ffcdb2;
+		--pal-primary: #bc4b51;
+		--pal-secondary: #b3fc8a;
+		--pal-secondary-soft: #ceffad;
 		--pal-background: #fae1dd;
+		--pal-background-soft: #fafafa; */
+
+		--pal-primary: #db5a42;
+		--pal-primary-soft: #e3a587;
+		--pal-secondary: #e8ae68;
+		--pal-secondary-soft: #ffd275;
+		--pal-background: #f8e1dd;
 		--pal-background-soft: #fafafa;
-		--pal-secondary-soft: #ffcdb2;
-		--pal-secondary: #bc4b51;
+
 		--pal-text: #444;
 		--pal-text-light: #efefef;
 		--ff-heading: 'Waterfall', serif;
@@ -28,7 +36,7 @@
 
 		/* header styling */
 		--bg-header: var(--pal-background);
-		--fg-header-logo: var(--pal-secondary);
+		--fg-header-logo: var(--pal-primary);
 		--fg-header-logo-alt: var(--pal-text);
 		--ff-header-logo: var(--ff-heading);
 		--ff-header-logo-alt: var(--ff-heading);
@@ -36,9 +44,15 @@
 		/* navlink styling */
 		--ff-nav-link: var(--ff-heading);
 		--bg-nav-link: var(--pal-secondary);
-		--fg-nav-link: var(--pal-text-light);
-		--bg-nav-link-active: var(--pal-primary);
+		--fg-nav-link: var(--pal-text);
+		--bg-nav-link-active: var(--pal-primary-soft);
 		--fg-nav-link-active: var(--pal-text);
+		--bg-nav-link-hover: var(--pal-secondary-soft);
+		--bg-nav-link-active-hover: var(--pal-primary);
+
+		/* recipes list styling */
+		--fg-recipes-list: var(--pal-text);
+		--bg-recipes-list: #fff;
 
 		/* recipe styling */
 		--ff-recipe-heading: var(--ff-heading);
