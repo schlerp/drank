@@ -28,5 +28,7 @@
 		display: flex;
 		flex-direction: row;
 		gap: 1rem;
+		padding: 1rem;
+		margin: 0;
 	}
 </style>
