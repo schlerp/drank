@@ -1,6 +1,8 @@
 # Drank
 
-A simple web app for viewing cocktails recipes.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/670c0f11-9cbd-467f-ab6b-4a55bc8f46c0/deploy-status)](https://app.netlify.com/sites/frosty-gates-b3c9e8/deploys)
+
+A simple web app built with svelte for viewing cocktail recipes.
 
 ## Developing
 
